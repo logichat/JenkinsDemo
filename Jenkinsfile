@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("init") {
             steps {
-                echo 'checkout'
+                echo 'checkout latest'
             }
         }
         stage("build") {
